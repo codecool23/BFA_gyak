@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>3rd Personal Assessment</title>
+        <link rel="stylesheet" type="text/css" href="static/main.css">
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="{{ url_for( 'static', filename='main.js') }}"></script>
+    </head>
+    <div class="h1-only">
+        <h1>Caracter counter<h1>    
+    </div>        
+    <form method="POST", id="form">
+        <label>input
+            <input name="input1" type="text" id="inp"  ></br>
+        </label>    
+        <input class="btn" type="submit" id="sub">   
+    </form>
+
+    
+    <div id="result"></div>      
+ </body>
+</html>
